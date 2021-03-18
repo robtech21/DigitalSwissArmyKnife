@@ -38,13 +38,13 @@ Command   | Description | Function it calls
 `editor()`| Opens the default editor | `os.system('$EDITOR')`
 `sudo_editor()` | Opens default editor as sudo | `os.system('sudo $EDITOR')`
 
-(The function these call isn't exact to the source code)
+(The function these call isn't exact to the source code, these also aren't final)
 
 ### Future Module Ideas
 
 * A MCPI command set (simplified commands from the `mcpi` module)
 * Something that handles compression using `tar`
-* 
+* Encrypt files using [glew](https://github.com/B00bleaTea/glew)
 
 # Setup
 (Coming soon)
