@@ -9,6 +9,7 @@ Note: This README file is **incomplete** and DSAK is still under **heavy develop
 * [About](#about)
   * [Information](#information)
   * [Features](#features)
+      * [Interpreter](#interpreter)
       * [dsaklib](#dsaklib)
         * [cmdpkg](#cmdpkg) 
           * [Base Commands](#base-commands)
