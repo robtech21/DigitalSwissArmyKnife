@@ -68,44 +68,14 @@ Command   | Description | Function it calls
 Here is an example template command set module:
 
 ```py
-__setname__    = "[setname]"
-__authorname__ = "[author]"
-__year__       = "[year]"
+'''INFO
+Name:        template
+Description: A template command set
+Author(s):   Robert Furr
+Year:        2021
 
-# Replace 
-# Replace [author] your name 
-# Replace [year] with the current year
-# Replace [setname] with the name of your commandset
+This and all other command sets are Licensed under the GNU General Public License. For more info, see the LICENSE file included with DSAK.
 '''
-Set Name: [setname]
-Author:   [Name] ([Link to GitHub homepage])
-Year:     [year]
-
-Type [setname]_info() for more details on this command set
-'''
-def modulenameinfo():
-  '''Prints copyright info about the package'''
-  # Fill out this GPL notice
-  print('''
-  
-      <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-    
-  ''')
-
 def hello():
   # Add an description to every definition
   '''Prints hello world (example command)'''
