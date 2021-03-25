@@ -1,7 +1,7 @@
 # DigitalSwissArmyKnife
-A digital multitool that uses a customized Python interpreter as a base
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-The source for the modules can be found [here](https://github.com/robtech21/dsaklib) (Incomplete at the moment)
+A digital multitool that uses a customized Python interpreter as a base
 
 Note: This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be uploaded as of now.
 
@@ -88,6 +88,12 @@ Utility module that is fine tuned to make the code for DSAK more simple.
 
 ### Features
 (coming soon)
+
+### Extra
+
+If you encounter any bugs, please open an issue :)
+
+[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
 
 # Installation
 (coming soon)
