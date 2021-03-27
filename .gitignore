@@ -8,13 +8,13 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+lib/dsaklib.old
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/

@@ -6,6 +6,9 @@
 A digital multitool that uses a customized Python interpreter as a base
 
 **Note:** This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be stable or accurate.
+
+To add dsaklib just make a venv and add it to the lib folder, then run the `main.py` file
+
 # Contents
 * [About](#about)
   * [Information](#information)
@@ -19,6 +22,8 @@ A digital multitool that uses a customized Python interpreter as a base
         * [shortcode](#shortcode) 
           * [Features](#features)
 * [Installation](#installation)
+
+
 # About
 About section
 
