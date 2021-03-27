@@ -1,10 +1,11 @@
 # DigitalSwissArmyKnife
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+(Pre-release documentation, still incomplete)
+
 A digital multitool that uses a customized Python interpreter as a base
 
-Note: This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be uploaded as of now.
-
+**Note:** This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be stable or accurate.
 # Contents
 * [About](#about)
   * [Information](#information)
