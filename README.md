@@ -1,4 +1,7 @@
 # DigitalSwissArmyKnife
+
+[![Join the chat at https://gitter.im/digitalswissarmyknife/community](https://badges.gitter.im/digitalswissarmyknife/community.svg)](https://gitter.im/digitalswissarmyknife/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 (Pre-release documentation, still incomplete)
@@ -99,7 +102,7 @@ Utility module that is fine tuned to make the code for DSAK more simple.
 
 If you encounter any bugs, please open an issue :)
 
-[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com) [![Join the chat at https://gitter.im/digitalswissarmyknife/community](https://badges.gitter.im/digitalswissarmyknife/community.svg)](https://gitter.im/digitalswissarmyknife/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
 
 # Installation
 (coming soon)
