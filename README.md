@@ -61,10 +61,9 @@ Command   | Description | Function it calls
 `clr()`   | Clears the screen | `os.system('clear')`
 `cls()`   | Same as `clr()` | `clr()`
 `clear()` | Same as `clr()` | `clr()`
-`editor()`| Opens the default editor | `os.system('$EDITOR')`
-`sudo_editor()` | Opens default editor as sudo | `os.system('sudo $EDITOR')`
+`edit()`| Opens the default editor | `os.system('$EDITOR')`
 
-(The function these call isn't exact to the source code, these also aren't final)
+(These commands are not final or accurate to the source code)
 
 #### Future Module Ideas
 * Encrypt files using [glew](https://github.com/B00bleaTea/glew)
