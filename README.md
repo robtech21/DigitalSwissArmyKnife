@@ -48,7 +48,7 @@ from dsaklib.cmdpkg.base import * #Imports base commands
 There are also a few other utilities that come packaged by default, you can import them this way at the moment:
 
 ```py
-from dsaklib.cmdpkg.misc import * #Imports a small set of misc commands
+from dsaklib.cmdpkg.examplepkg import * # Example import
 ```
 
 #### Base Commands
@@ -67,12 +67,11 @@ Command   | Description | Function it calls
 (The function these call isn't exact to the source code, these also aren't final)
 
 #### Future Module Ideas
-* A MCPI command set (simplified commands from the `mcpi` module)
-* Something that handles compression using `tar`
 * Encrypt files using [glew](https://github.com/B00bleaTea/glew)
+* Easy-to-use compression commands using something like `tar`
 
 #### Adding Custom Command Sets
-**(incomplete)**
+(Probably incomplete)
 
 Here is an example template command set module:
 
