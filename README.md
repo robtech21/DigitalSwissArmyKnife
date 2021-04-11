@@ -1,13 +1,16 @@
 # DigitalSwissArmyKnife
+
+[![Join the chat at https://gitter.im/digitalswissarmyknife/community](https://badges.gitter.im/digitalswissarmyknife/community.svg)](https://gitter.im/digitalswissarmyknife/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 (Pre-release documentation, still incomplete)
 
 A digital multitool that uses a customized Python interpreter as a base
 
-![Screenshot](screenshot1.png)
-
 **Note:** This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be stable or accurate.
+
+To add dsaklib just make a venv and add it to the lib folder, then run the `main.py` file
 
 # Contents
 * [About](#about)
@@ -45,7 +48,7 @@ from dsaklib.cmdpkg.base import * #Imports base commands
 There are also a few other utilities that come packaged by default, you can import them this way at the moment:
 
 ```py
-from dsaklib.cmdpkg.misc import * #Imports a small set of misc commands
+from dsaklib.cmdpkg.examplepkg import * # Example import
 ```
 
 #### Base Commands
@@ -58,33 +61,16 @@ Command   | Description | Function it calls
 `clr()`   | Clears the screen | `os.system('clear')`
 `cls()`   | Same as `clr()` | `clr()`
 `clear()` | Same as `clr()` | `clr()`
-`edit()`| Opens the default editor unless another is specified. | `os.system('$EDITOR')`
+`edit()`| Opens the default editor | `os.system('$EDITOR')`
 
-(The function these call isn't exact to the source code, these also aren't final)
-
-Here is some example shell usage:
-
-```
-⎹\⎺⎺⎺⎺⎸[/home/boba/coding-projects/DSAK/DigitalSwissArmyKnife]
-⎹⎻\⎻⎻⎻⎸[boba@alpha]
-⎹⎼⎼\⎼⎼⎸[>>>]$ ls() # Views contents of folder
-dsakvenv  LICENSE  main.py  README.md  src  start
-⎹\⎺⎺⎺⎺⎸[/home/boba/coding-projects/DSAK/DigitalSwissArmyKnife]
-⎹⎻\⎻⎻⎻⎸[boba@alpha]
-⎹⎼⎼\⎼⎼⎸[>>>]$ cd('..') # Change to parent directory
-|🗁  Attempting to switch to directory ..
-|🗁  Done
-⎹\⎺⎺⎺⎺⎸[/home/boba/coding-projects/DSAK]
-⎹⎻\⎻⎻⎻⎸[boba@alpha]
-⎹⎼⎼\⎼⎼⎸[>>>]$ 
-```
+(These commands are not final or accurate to the source code)
 
 #### Future Module Ideas
-* Something that handles compression using `tar`
 * Encrypt files using [glew](https://github.com/B00bleaTea/glew)
+* Easy-to-use compression commands using something like `tar`
 
 #### Adding Custom Command Sets
-**(incomplete)**
+(Probably incomplete)
 
 Here is an example template command set module:
 
@@ -112,14 +98,9 @@ Utility module that is fine tuned to make the code for DSAK more simple.
 
 ### Extra
 
-If you encounter any bugs, please open an issue! :)
+If you encounter any bugs, please open an issue :)
 
 [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
 
 # Installation
-
-**1.** Clone or download this repo
-
-**2.** Make a virtualenv using `python3 -m venv dsakvenv`
-
-**3.** Execute the `main.py` file by doing `python3 main.py` or by making it executable and doing `./main.py`
+(coming soon)
