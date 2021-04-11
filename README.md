@@ -5,9 +5,9 @@
 
 A digital multitool that uses a customized Python interpreter as a base
 
-**Note:** This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be stable or accurate.
+![Screenshot](screenshot1.png)
 
-To add dsaklib just make a venv and add it to the lib folder, then run the `main.py` file
+**Note:** This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be stable or accurate.
 
 # Contents
 * [About](#about)
@@ -58,13 +58,28 @@ Command   | Description | Function it calls
 `clr()`   | Clears the screen | `os.system('clear')`
 `cls()`   | Same as `clr()` | `clr()`
 `clear()` | Same as `clr()` | `clr()`
-`editor()`| Opens the default editor | `os.system('$EDITOR')`
-`sudo_editor()` | Opens default editor as sudo | `os.system('sudo $EDITOR')`
+`edit()`| Opens the default editor unless another is specified. | `os.system('$EDITOR')`
 
 (The function these call isn't exact to the source code, these also aren't final)
 
+Here is some example shell usage:
+
+```
+⎹\⎺⎺⎺⎺⎸[/home/boba/coding-projects/DSAK/DigitalSwissArmyKnife]
+⎹⎻\⎻⎻⎻⎸[boba@alpha]
+⎹⎼⎼\⎼⎼⎸[>>>]$ ls() # Views contents of folder
+dsakvenv  LICENSE  main.py  README.md  src  start
+⎹\⎺⎺⎺⎺⎸[/home/boba/coding-projects/DSAK/DigitalSwissArmyKnife]
+⎹⎻\⎻⎻⎻⎸[boba@alpha]
+⎹⎼⎼\⎼⎼⎸[>>>]$ cd('..') # Change to parent directory
+|🗁  Attempting to switch to directory ..
+|🗁  Done
+⎹\⎺⎺⎺⎺⎸[/home/boba/coding-projects/DSAK]
+⎹⎻\⎻⎻⎻⎸[boba@alpha]
+⎹⎼⎼\⎼⎼⎸[>>>]$ 
+```
+
 #### Future Module Ideas
-* A MCPI command set (simplified commands from the `mcpi` module)
 * Something that handles compression using `tar`
 * Encrypt files using [glew](https://github.com/B00bleaTea/glew)
 
@@ -97,9 +112,14 @@ Utility module that is fine tuned to make the code for DSAK more simple.
 
 ### Extra
 
-If you encounter any bugs, please open an issue :)
+If you encounter any bugs, please open an issue! :)
 
 [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
 
 # Installation
-(coming soon)
+
+**1.** Clone or download this repo
+
+**2.** Make a virtualenv using `python3 -m venv dsakvenv`
+
+**3.** Execute the `main.py` file by doing `python3 main.py` or by making it executable and doing `./main.py`

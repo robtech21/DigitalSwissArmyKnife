@@ -12,12 +12,7 @@ print_directory = True
 # Custom additions
 from dsaklib.appmodules.shortcode import *
 
-# Fancy user prompt lol (failed)
-#current_dir = os.getcwd()
-#user_input = color("|\_ ",red)+color(str(current_dir),yellow)+"\n"+color('|_\_',red)+color('[',yellow)+color(str(userName),green)+color('@',red)+color(str(hostName),green)+color(']',yellow)+color('$ ',cyan)
-
 user_input = color('⎹⎻\⎻⎻⎻⎸',red)+color('[',yellow)+color(str(userName),green)+color('@',red)+color(str(hostName),green)+color(']',yellow)+color("\n⎹⎼⎼\⎼⎼⎸",red)+color('[',yellow)+color('>>>',green)+color(']',yellow)+color('$ ',cyan)
-#user_input = dynamic_user_input
 __all__ = ["InteractiveInterpreter", "InteractiveConsole", "interact",
            "compile_command"]
 
@@ -268,11 +263,17 @@ class InteractiveConsole(InteractiveInterpreter):
         with in some way (this is the same as runsource()).
 
         """
+        #print(1)
         self.buffer.append(line)
+        #print(2)
         source = "\n".join(self.buffer)
+        #print(3)
         more = self.runsource(source, self.filename)
+        #print(4)
         if not more:
+            #print(5)
             self.resetbuffer()
+        #print(6)
         return more
 
     def raw_input(self, prompt=""):

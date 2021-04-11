@@ -1,5 +1,6 @@
 '''A joke module'''
-from dsaklib.appmodules.termcolor import colored as color
+import dsaklib.appmodules.termcolor
+from dsaklib.appmodules.termcolor import colored
 import time,random
 def ArchBTW():
   '''Yeah we get it you use arch screw off'''
@@ -8,7 +9,7 @@ def ArchBTW():
 def kindaSus():
   '''Kinda sus bro'''
   time.sleep(2)
-  counter = random.randint(10,20)
+  counter = random.randint(10,30)
   while counter > 0:
     time.sleep(0.2)
     print(colored('amogus','red'))

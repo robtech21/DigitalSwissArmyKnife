@@ -3,6 +3,7 @@ Name:        smolutils
 Description: A bunch of random utilities that are too "smol" to have their own command sets
 Author(s):   Robert Furr
 Year:        2021
+Extra:       Will become obsolete soon
 
 This and all other command sets are licensed under the GNU General Public License, see the LICENSE file included with DSAK for details.'''
 
