@@ -4,7 +4,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-(Pre-release documentation, still incomplete)
+(Early-release documentation, still incomplete)
 
 A digital multitool that uses a customized Python interpreter as a base
 
