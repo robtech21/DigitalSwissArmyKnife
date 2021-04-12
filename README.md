@@ -103,4 +103,4 @@ If you encounter any bugs, please open an issue :)
 [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
 
 # Installation
-(coming soon)
+Just make a Python virtualenv and copy the `dsaklib` folder from `src/lib/` to the virtualenv Python `site-packages` folder
