@@ -8,6 +8,8 @@
 
 A digital multitool that uses a customized Python interpreter as a base
 
+Updates notice: This code is kind of buggy and I'm working on a minor release (1.1.0) which should refine a lot of the code and iron out a lot of kinks. I hope to also refine the README at some point
+
 **Note:** This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be stable or accurate.
 
 To add dsaklib just make a venv and add it to the lib folder, then run the `main.py` file
