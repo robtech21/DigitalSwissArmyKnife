@@ -8,6 +8,8 @@
 
 A digital multitool that uses a customized Python interpreter as a base
 
+`[May 21 Update] - This project has been paused for the time being. I do have plans for this project but school is a priority for me.`
+
 Updates notice: This code is kind of buggy and I'm working on a minor release (1.1.0) which should refine a lot of the code and iron out a lot of kinks. I hope to also refine the README at some point
 
 **Note:** This README file is **incomplete** and DSAK is still under **heavy development** so nothing will be stable or accurate.
